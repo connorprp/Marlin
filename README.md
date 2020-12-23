@@ -1,3 +1,21 @@
+NOTE: THIS IS A CUSTOMIZED CONFIGURATION. SOME SETTINGS MAY REQUIRE CHANGE/FINE-TUNING DEPENDING ON YOUR SPECIFIC HARDWARE CONFIGURATION
+
+Updated Wilson 2 Marlin Configuration File. This fork aims to provide a Wilson 2-optimized configuration file while capturing the latest features in Marlin 2.0.x like:
+
+-32-bit support with several boards added
+-Improved support for AVR boards
+-Power-Loss Recovery (for SD print jobs)
+-Automatic power supply control
+-Expanded probe support
+-More customizable Status Screen
+-LED control menu
+-EEPROM auto-init
+-More temperature sensors supported
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
 # Marlin 3D Printer Firmware
 
 ![GitHub](https://img.shields.io/github/license/marlinfirmware/marlin.svg)
