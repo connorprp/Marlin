@@ -1,5 +1,3 @@
-NOTE: THIS IS A CUSTOMIZED CONFIGURATION. SOME SETTINGS MAY REQUIRE CHANGE/FINE-TUNING DEPENDING ON YOUR SPECIFIC HARDWARE CONFIGURATION
-
 Updated Wilson 2 Marlin Configuration File. This fork aims to provide a Wilson 2-optimized configuration file while capturing the latest features in Marlin 2.0.x like:
 
 -32-bit support with several boards added
@@ -11,6 +9,14 @@ Updated Wilson 2 Marlin Configuration File. This fork aims to provide a Wilson 2
 -LED control menu
 -EEPROM auto-init
 -More temperature sensors supported
+
+NOTE: THIS IS A CUSTOMIZED CONFIGURATION. SOME SETTINGS MAY REQUIRE CHANGE/FINE-TUNING DEPENDING ON YOUR SPECIFIC HARDWARE CONFIGURATION
+
+NOTE: If you get the compilation error "fork/exec C:\Program Files\WindowsApps\ArduinoLLC.ArduinoIDE_1.8.42.0_x86__mdqgnx93n4wtt\hardware\tools\avr/bin/avr-gcc.exe: The filename or extension is too long." it is a bug in outdated Arduino IDE versions. Update to the latest stable nightly build and this should be fixed.
+
+NOTE: If using the Reprap Full Discount Smart Controller, install the u8glib library and include at the top of Configuration.h
+
+
 
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
